@@ -7,17 +7,28 @@
 </head>
 <body style="font-family: 'IBM Plex Mono';">
     <table border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0">
-        <tr><td>Vsevolod Tchestnih Victorovich</td></tr>
-        <tr><td id="hr"></td></tr>
-        <tr><td>my-email@domen.com<td></tr>
+        <tr style="color: #1a1a1a"><td style="padding-left: 10px; padding-right: 5px;">Vsevolod Tchestnih Victorovich</td></tr>
+        <tr style="color: #1a1a1a"><td style="padding-left: 10px; padding-right: 5px; padding-bottom: 5px;">my-email@domen.com<td></tr>
         <!-- <tr><td>&#10240</td></tr> -->
         <tr><td id="devider"></td></tr>
-        <tr style="background-color: black;" id="body">
+        <tr id="body">
         <td>
-            <ul>
-                <li>asdfafsdafasdfasdfadddddddddddddddddddsdfss</li>
-            </ul>
+            <!-- &#10003 - галочка; &#9747 - икс  -->
+            <fieldset>
+                <legend>[&#10003] Починка принтера </legend>
+                Принтер был починен, все в порядке. В скором
+                вермени потребутся замена лазера.
+            </fieldset>
+            <fieldset>
+                <legend>[&#9747;] Востонавление утерянной базы данных за 2014 год</legend>
+                Мне не удалость востановить базу данных, мои саболезнования
+            </fieldset>
         </td>
+            </tr>
+                <td style="padding-left:10px; background-color: #59D057; color: #f0f000">#129dfa01f2</td>
+                <td></td>
+                <!-- style="padding-left:5px;" -->
+            <tr>
         </tr>
     </table>
 </body>
@@ -25,21 +36,29 @@
 
 <style>
 table {
-        /* border: 3px solid; */
-        background-color: #59D057;
-        position: absolute;
+    /* border: 3px solid; */
+    background-color: #59D057;
+    position: absolute;
+    width: 600px;
 }
 
 #devider {
     border: none;
-    border-top: 2px dashed black;
+    border-top: 3px dashed #1a1a1a;
     position: relative;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
+}
+
+#body {
+    padding: 20px;
 }
 
 #body td {
-    background-color: black;
-    color: white;
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
 } 
 
 </style>
